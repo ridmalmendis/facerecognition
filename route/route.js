@@ -4,7 +4,7 @@ var bodyParser = require('body-parser')
 var db = fire.firestore()
 router.use(bodyParser.json())
 
-router.get('/data', (req, res)=>{
+router.get('/data2', (req, res)=>{
   
     var allData = []
     db.collection('students')
